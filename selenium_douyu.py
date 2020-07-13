@@ -51,4 +51,17 @@ if __name__ == "__main__":
     dy = Douyu()
     dy.run()
 
+    def run(self):
+        # url
+        # driver
+        # get
+        self.driver.get(self.url)
+        # parse
+        self.parse_data()
+        # save
+        # next
 
+
+if __name__ == "__main__":
+    dy = Douyu()
+    dy.run()
