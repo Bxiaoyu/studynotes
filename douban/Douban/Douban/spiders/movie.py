@@ -9,7 +9,7 @@ class MovieSpider(scrapy.Spider):
 
     def parse(self, response):
         el_list = response.xpath('//*[@class="info"]')
-        # print(len(el_list))
+        print(response.request.headers["User-Agent"])
 
         for el in el_list:
             item = DoubanItem()
