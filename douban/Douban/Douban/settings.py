@@ -72,6 +72,7 @@ DOWNLOADER_MIDDLEWARES = {
    # 'Douban.middlewares.DoubanDownloaderMiddleware': 543,
     #'Douban.middlewares.RandomUserAgent': 543,
     'Douban.middlewares.RandomProxy': 543,
+    'Douban.middlewares.SeleniumMiddleware':544,
 }
 
 # Enable or disable extensions
